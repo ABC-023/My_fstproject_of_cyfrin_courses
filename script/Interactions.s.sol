@@ -11,6 +11,8 @@ import {FundMe} from "../src/FundMe.sol";
 contract FundFundMe is Script {
     uint256 constant SEND_VALUE = 0.1 ether; // 0.1 ETH in wei
 
+    receive() external payable {}
+
     // This script is used to fund the most recently deployed FundMe contract
 
     function fundFundMe(address mostRecentlyDeployed) public {

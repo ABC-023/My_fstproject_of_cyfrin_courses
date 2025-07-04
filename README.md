@@ -65,6 +65,6 @@ $ anvil --help
 $ cast --help
 ```
 1. Proper ReadMe ✅
-2. Integration tests 
-3. Programatic verification 
-4. Push to GitHub
+2. Integration tests ✅
+3. Programatic verification ✅
+4. Push to GitHub ✅
